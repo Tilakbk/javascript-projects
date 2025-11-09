@@ -1,0 +1,13 @@
+body{
+  margin: 0px;
+
+}
+
+.main{
+    
+    background-image: url('img/marius-matuschzik-5i3Y_IOvUYY-unsplash.jpg');
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+}
+
