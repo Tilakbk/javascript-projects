@@ -1,2 +1,5 @@
-
-document.getElementsByTagName('h1')[0].innerText=5;
+count=0;
+function increment(){   
+count= count+1;
+document.getElementsByTagName('h1')[0].innerText=count; 
+}
