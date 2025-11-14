@@ -16,3 +16,9 @@ function save(){
 
     
 }
+
+function clearCount()
+{
+    count = 0
+    inc.innerText= count
+}
