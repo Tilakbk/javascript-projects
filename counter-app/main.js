@@ -5,14 +5,14 @@ let saveEL= document.getElementsByClassName("text")[0]
 
 function increment(){   
 count= count+1;
-inc.innerText=count; 
+inc.textContent=count; 
 }
 
 
 
 function save(){
      let countStr= count+ " - "
-     saveEL.innerText += countStr
+     saveEL.textContent += countStr
 
     
 }
@@ -20,5 +20,5 @@ function save(){
 function clearCount()
 {
     count = 0
-    inc.innerText= count
+    inc.textContent= count
 }
